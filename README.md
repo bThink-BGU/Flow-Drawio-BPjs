@@ -1,4 +1,4 @@
-# HACK-BGU18
+# Flow-Drawio-BPjs
 
 * Compile BPjs with mvn package
 * Run flow.bgu.ac.il.BPServer (e.g., by  starting `java -jar target/BPWorkBench-0.5-DEV.jar` at the project root directory)

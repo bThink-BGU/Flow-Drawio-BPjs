@@ -90,8 +90,6 @@ public class RunServlet extends HttpServlet {
 		rnr = new BProgramRunner(bprog);
 		rnr.addListener(new PrintBProgramRunnerListener());
 
-		IFTTTReporter.listenTo(rnr);
-
 		thread = new Thread() {
 			public void run() {
 				// go!
